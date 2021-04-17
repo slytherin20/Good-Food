@@ -1,2 +1,3 @@
 # Good-books
-Created with CodeSandbox
+
+A book recommendation app that recommends book in some genre.
