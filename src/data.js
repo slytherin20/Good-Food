@@ -73,7 +73,7 @@ const books = {
       rating: "4.6/5"
     },
     {
-      name: "Javascript: The good parts",
+      name: "Javascript : The good parts",
       author: "D Crockford",
       publishyear: 2008,
       rating: "4.4/5"
