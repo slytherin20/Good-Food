@@ -3,8 +3,8 @@ import "./styles.css";
 
 function Bookname({ name, author, year, rating }) {
   return (
-    <li class="book">
-      <div class="book-details">
+    <li className="book">
+      <div className="book-details">
         <h4>{name}</h4>
         <p>
           Author:
