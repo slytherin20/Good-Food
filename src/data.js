@@ -80,5 +80,5 @@ const books = {
     }
   ]
 };
-
+console.log(books["romance"]);
 export default books;
