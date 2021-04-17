@@ -1,4 +1,67 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
+}
+
+.navbar {
+  height: 40px;
+  padding: 1%;
+  background-color: black;
+  color: white;
   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.genre-list,
+.books-list {
+  list-style: none;
+}
+.show-genre,
+.show-books {
+  margin: 2%;
+  padding: 1%;
+}
+.show-books {
+  width: 80%;
+}
+.books-list {
+  border-top: solid 1px black;
+  margin-top: 2%;
+}
+.list-item {
+  display: inline-block;
+  margin: 20px;
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 6%;
+  text-transform: capitalize;
+}
+.list-item:hover,
+.list-item:active {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: solid 1px blue;
+}
+.book-details {
+  margin: 5%;
+  padding: 2%;
+  background-color: gainsboro;
+}
+
+@media screen and (max-width: 550px) {
+  .list-item {
+    margin: 5px;
+    padding: 3px;
+    width: 80px;
+  }
 }
