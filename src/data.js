@@ -1,84 +1,83 @@
-const books = {
-  romance: [
+const food = {
+  Indian: [
     {
-      name: "Pride and Prejudice",
-      author: "Jane Austin",
-      publishyear: 1893,
-      rating: "4.5/5"
+      name: "Dal makhani",
+      image: "https://i.imgur.com/s1yX8kN.jpg",
+      rating: "4/5",
+      bestPlace: "pind Baluchi"
     },
     {
-      name: "Jane Eyre",
-      author: "Charlotte Bronte",
-      publishyear: 1847,
-      rating: "4/5"
+      name: "Masala Dosa",
+      image: "https://i.imgur.com/1rsVdSy.jpg",
+      rating: "4.5/5",
+      bestPlace: "Naivedyam"
     },
     {
-      name: "The fault in our stars",
-      author: "John Green",
-      publishyear: 2013,
-      rating: "4.7/5"
+      name: "Pani Puri",
+      image: "https://i.imgur.com/GyzA7yy.jpg",
+      rating: "5/5",
+      bestPlace: "NSP, Delhi"
     }
   ],
-  thriller: [
+  Chinese: [
     {
-      name: "Gone girl",
-      author: "Gillian Flynn",
-      publishyear: 2014,
-      rating: "4/5"
+      name: "Manchurian",
+      image: "https://i.imgur.com/u6gpV9v.jpg",
+      rating: "4/5",
+      bestPlace: "Shang Palace"
     },
     {
-      name: "The girl with the dragon tattoo",
-      author: "Steig Larson",
-      publishyear: 2008,
-      rating: "4.1/5"
+      name: "Fried Rice",
+      image: "https://i.imgur.com/TsXWWNn.jpg",
+      rating: "3.5/5",
+      bestPlace: "CIA Call it Asian"
     },
     {
-      name: "And then there were none",
-      author: "Agatha Christie",
-      publishyear: 2004,
-      rating: "4.2/5"
+      name: "Chilli Potato",
+      image: "https://i.imgur.com/Qbnu7jg.jpg",
+      rating: "4.5/5",
+      bestPlace: "The Hong Kong Club"
     }
   ],
-  horror: [
+  Italian: [
     {
-      name: "The shining",
-      author: "Stephen King",
-      publishyear: 1977,
-      rating: "4.2/5"
+      name: "Pesto Pasta",
+      image: "https://i.imgur.com/SLGHnCL.jpg",
+      rating: "4/5",
+      bestPlace: "Rose Cafe"
     },
     {
-      name: "It",
-      author: "Stephen King",
-      publishyear: 1986,
-      rating: "4.2/5"
+      name: "Penne Pasta",
+      image: "https://i.imgur.com/cLHACNl.jpg",
+      rating: "3/5",
+      bestPlace: "Flying Saucer Cafe"
     },
     {
-      name: "Frankenstein",
-      author: "Mary Wollstonecraft Shelly",
-      publishyear: 1818,
-      rating: "3.9/5"
-    },
-    {
-      name: "The haunting of the hill house",
-      author: "Shirley Jackson",
-      publishyear: 1959,
-      rating: "3.8/5"
+      name: "Pizza",
+      image: "https://i.imgur.com/o6S4jqr.jpg",
+      rating: "5/5",
+      bestPlace: "Pizza Hut"
     }
   ],
-  javascript: [
+  Korean: [
     {
-      name: "Eloquent Javascript,3rd Edition",
-      author: "Marijn Haverbekedives",
-      publishyear: 2018,
-      rating: "4.6/5"
+      name: "Tteok-bokki",
+      image: "https://i.imgur.com/TDdvtPz.jpg",
+      rating: "5/5",
+      bestPlace: "Busan Korean Restaurant"
     },
     {
-      name: "Javascript : The good parts",
-      author: "D Crockford",
-      publishyear: 2008,
-      rating: "4.4/5"
+      name: "Japchae",
+      image: "https://i.imgur.com/aWrjWmH.jpg",
+      rating: "4/5",
+      bestPlace: "Busan Korean Restaurant"
+    },
+    {
+      name: "Kimbap",
+      image: "https://i.imgur.com/5SVdmJf.jpg",
+      rating: "4/5",
+      bestPlace: "Busan Korean Restaurant"
     }
   ]
 };
-console.log(books["romance"]);
-export default books;
+export default food;

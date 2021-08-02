@@ -1,28 +1,28 @@
 import "./styles.css";
 //import books from "./data";
 import { useState } from "react";
-import Showgenre from "./showgenre";
+import Showcategory from "./showcategory";
 import React from "react";
-import Appendbooks from "./appendbooks";
+import Appendfood from "./appendfood";
 
 function App() {
-  const [genre, setGenre] = useState("javascript");
-  function clickHandler(genre) {
-    setGenre(genre);
+  const [category, setCategory] = useState("Indian");
+  function clickHandler(choosen) {
+    setCategory(choosen);
   }
   return (
     <>
       <nav className="navbar">
-        <h2>Good Books</h2>
+        <h2>Good Food</h2>
       </nav>
       <div className="container">
-        <div className="show-genre">
-          <h3 className="sub-heading">Genre:</h3>
-          <Showgenre clickHandler={clickHandler} />
+        <div className="show-category">
+          <h3 className="sub-heading">Categories:</h3>
+          <Showcategory clickHandler={clickHandler} />
         </div>
-        <div className="show-books">
-          <h3 className="sub-heading">Books:</h3>
-          <Appendbooks genrename={genre} />
+        <div className="show-food">
+          <h3 className="sub-heading">Food:</h3>
+          <Appendfood category={category} />
         </div>
       </div>
     </>
